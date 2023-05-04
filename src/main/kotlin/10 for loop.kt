@@ -11,4 +11,11 @@ fun main() {
         println(x)
     }
     println(cars.joinToString("\n"))
+
+    //Example 3
+    var text= "Kotlin"
+
+    for (letter in text) {
+        println(letter)
+    }
 }
